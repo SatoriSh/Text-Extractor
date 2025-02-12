@@ -1,0 +1,42 @@
+﻿<Window x:Class="TextExtractor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextExtractor"
+        mc:Ignorable="d"
+        Title="TextExtractor" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="58"/>
+            <!-- Language selection -->
+            <RowDefinition Height="Auto"/>
+            <!-- File path and browse button -->
+            <RowDefinition Height="*"/>
+            <!-- Image -->
+            <RowDefinition Height="Auto"/>
+            <!-- Extract button -->
+            <RowDefinition Height="Auto"/>
+            <!-- Text label and text box -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Language:" Grid.Column="0" VerticalAlignment="Center" Height="26"/>
+        <ComboBox x:Name="cmbLanguage" Grid.Column="1" Margin="5,0,5,0" VerticalAlignment="Center" Height="26" SelectedIndex="0">
+            <ComboBoxItem Content="English" Tag="eng"/>
+            <ComboBoxItem Content="Russian" Tag="rus"/>
+        </ComboBox>
+
+        <Label Content="File Path:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Height="26"/>
+        <Button  x:Name="btnBrowse" Content="Browse" Grid.Row="1" VerticalAlignment="Center" Click="btnBrowse_Click" Height="20" Margin="5,5,5,5" Grid.Column="1"/>
+
+        <Button x:Name="btnExtract" IsDefault="True" Content="Extract" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Click="btnExtract_Click" Height="50" Margin="5,5,5,5"/>
+        <Image x:Name="image" Grid.Row="2" Grid.ColumnSpan="2" Margin="5 5 5 5" />
+        <TextBlock Text="Text:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="5,0,5,0"/>
+        <TextBox x:Name="txtContent" Grid.Row="4" Grid.Column="1" Margin="5,5,5,5" VerticalAlignment="Center" TextWrapping="Wrap" AcceptsReturn="True" Height="50"/>
+    </Grid>
+</Window>
+    
