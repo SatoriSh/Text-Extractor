@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextExtractor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b445bef92ef9aa8e8e3f6363bdbc966d15cdeb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f50c701efd2e02c2f44fabb49c48e205b08180c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextExtractor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextExtractor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
