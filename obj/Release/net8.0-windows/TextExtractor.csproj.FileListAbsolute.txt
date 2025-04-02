@@ -25,3 +25,4 @@ C:\Users\ShuKu\source\repos\WPF\TextExtractor\obj\Release\net8.0-windows\refint\
 C:\Users\ShuKu\source\repos\WPF\TextExtractor\obj\Release\net8.0-windows\TextExtractor.pdb
 C:\Users\ShuKu\source\repos\WPF\TextExtractor\obj\Release\net8.0-windows\TextExtractor.genruntimeconfig.cache
 C:\Users\ShuKu\source\repos\WPF\TextExtractor\obj\Release\net8.0-windows\ref\TextExtractor.dll
+C:\Users\ShuKu\source\repos\WPF\TextExtractor\obj\Release\net8.0-windows\TextExtractor.sourcelink.json
